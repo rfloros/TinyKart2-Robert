@@ -1,7 +1,7 @@
 repositories:
-    rplidar_ros:
+    ldlidar:
       type: git
-      url: git@github.com:Slamtec/rplidar_ros.git
+      url: https://github.com/linorobot/ldlidar.git
       version: ros2
 #    v4l2_camera:
 #      type: git
