@@ -2,4 +2,4 @@ build/
 log/
 .venv/
 .vscode/
-install/
+install/src/ldlidar/
