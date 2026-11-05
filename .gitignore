@@ -2,4 +2,6 @@ build/
 log/
 .venv/
 .vscode/
-install/src/ldlidar/
+install/
+src/ldlidar/
+src/rplidar_ros/
