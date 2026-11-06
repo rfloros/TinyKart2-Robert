@@ -27,6 +27,7 @@ void TK2_Main_Node::lidar_callback(sensor_msgs::msg::LaserScan::SharedPtr msg){
       For the most part, you will be grabbing the ranges data from the LiDAR (see: lidarOverview.md in the docs)
       Do this with 'msg->ranges[<index of scan ray>]'
   */ 
+  kartcmd.throttle = msg->ranges[0] * 55;
 
   //  Create a blank message in the kartmessage format  
   auto kartcmd = tk2_msgs::msg::Kartmsg();
